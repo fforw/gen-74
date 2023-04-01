@@ -6,7 +6,7 @@ export const PERCEPTIVE_FACTOR_BLUE = 0.0722;
 
 
 // settings this to 2 will enable quicker, less accurate interpolation, 1 will switch to linear
-const TO_LINEAR_POWER = 2.2
+const TO_LINEAR_POWER = 2
 const TO_RGB_POWER = 1/TO_LINEAR_POWER
 
 function gun_luminance(v)
